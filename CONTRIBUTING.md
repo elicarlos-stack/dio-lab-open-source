@@ -33,6 +33,11 @@ git clone https://github.com/SEU_USERNAME/dio-lab-open-source.git
 ```
 Pressione enter, e uma cópia do seu fork no GitHub será criada localmente.
 
+ou para realizar via SSH digite o comando `git clone` seguido da URL no exemplo do seu forl e digite a senha SSH, Por exemplo:
+
+```bash
+git clone git@github.com:digitalinnovationone/dio-lab-open-source.git
+```
 ### 3) Crie uma nova **branch** 
 Utilize o comando `git checkout -b` para criar e alternar para a nova branch e nomeie-a como `feat/community/SEU_USERNAME`
 > Exemplo: `git checkout -b feat/community/falvojr`
